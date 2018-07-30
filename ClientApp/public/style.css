@@ -1,0 +1,144 @@
+html {
+    margin: 0px;
+    height: 100%;
+}
+body {
+    /*background: #e6e6e6;*/
+    background: #1e2021;
+    color: white;
+    background-image: url(./Assets/MM_bg.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+header {
+    margin: 123px 0px;
+}
+
+nav {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: 100;
+}
+
+h3 {
+    font-weight: 100;
+}
+
+    h3 span {
+        font-weight: 600;
+    }
+
+.mm-create {
+    float: right;
+    position: relative;
+    top: -65px;
+}
+
+.mm-click {
+    cursor: pointer;
+}
+
+table.mm {
+    width: 100%;
+}
+
+    table.mm .mm-crud {
+        width: 30px;
+        text-align: center;
+    }
+
+        table.mm .mm-crud p {
+            margin-bottom: 0px;
+            color: #aaa;
+        }
+
+    table.mm .mm-delete p:hover,
+    i.mm-delete:hover {
+        color: red;
+    }
+
+    table.mm .mm-edit p:hover {
+        color: blue;
+    }
+
+i.mm-add:hover {
+    color: limegreen;
+}
+
+.mm-delMatches p,
+.mm-addMatches p {
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+    .mm-delMatches p i,
+    .mm-addMatches p i {
+        margin: 4px;
+    }
+p.mm-name {
+    width: max-content;
+    margin-bottom: 0;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.mm-name.mm-click:hover {
+    text-decoration: underline;
+}
+.mm-details p.mm-name {
+    display: block;
+    margin: 3px 0px;
+    font-weight: 600;
+}
+.mm-label {
+    font-weight: 100;
+    color: #ccc;
+}
+#navImg {
+    max-width: 5em;
+    max-height: 5em;
+}
+
+#navMenu a {
+    color: gray;
+}
+
+    #navMenu a:hover {
+        color: #C0392B;
+        background-color: transparent;
+    }
+
+.btn-primary {
+    background-color: #C0392B;
+    border-color: #343a40;
+}
+    .btn-primary:hover,
+    .btn-primary:not(:disabled):not(.disabled):active {
+        background-color: transparent;
+        color: #C0392B;
+        border-color: #C0392B;
+    }
+    .btn-primary.focus,
+    .btn-primary:focus {
+        box-shadow: none;
+        outline: none;
+    }
+hr {
+    border-top: 1px solid #C0392B;
+}
+thead {
+    color: #aaa;
+}
+.mm-requiredNote {
+    color: #777;
+}
+nav-btn:active {
+    border-color: #C0392B;
+}
