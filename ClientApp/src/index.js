@@ -184,8 +184,8 @@ const store = createStore(
         artistLast: '',
         artistStage: '',
         matchups: [],
-        projectName: "MM",
-        projectDesc: "Matching the music."
+        projectName: "Music Matchup",
+        projectDesc: "For our project, we decided to create a “music matchup” application that will allow users to keep track of individual artists, and the various bands that they have been associated with. Users would be able to register, and once registered, would be able to add/remove artists and bands, and associate which artists were ever a part of which bands."
     },
     window.devToolsExtension && window.devToolsExtension()
 );

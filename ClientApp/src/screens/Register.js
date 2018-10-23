@@ -35,6 +35,7 @@ class Register extends React.Component {
                 .then(
                     response => {
                         dispatch({ type: 'REGISTER_RESULTS', payload: response })
+                        console.log(this.props.response);
                         let error = [];
                         if (response.Username) {
                             error.push(response.Username[0]);
@@ -63,7 +64,7 @@ class Register extends React.Component {
         if (regStatus == "success") {
             return "Successfully registered!";
         } else if (regStatus == "fail") {
-            return "Registration failed, please address the following errors: "
+            return "Registration failed, please address the following errors: " ;
         } else {
             return "";
         }
